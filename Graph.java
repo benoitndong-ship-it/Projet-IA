@@ -92,16 +92,17 @@ public class Graph extends JFrame {
 }
 
 
-// c'est du texte 
+// c'est du texte pour faie executer le code 
 host=192.168.1.64
-class=lejos.hardware.sensor.EV3IRSensor
-labels=Distance
-port=S1
-category=Proximity
-units=m
-min=0
-max=1
-width=200
-height=600
-frequency=1
-factor=0.01
+class=lejos.hardware.sensor.EV3UltrasonicSensor
+labels=X
+port=S4
+category=Angular Velocity
+units=degrees/s
+min=-360
+max=360
+width=1000
+height=700
+frequency=5
+
+
