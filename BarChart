@@ -104,3 +104,20 @@ public class BarChart extends JFrame {
         demo.run();
 	}
 }
+
+
+
+// c'est du texte pour faire executer le programme 
+host=192.168.1.64
+class=lejos.hardware.sensor.EV3IRSensor
+labels=Distance
+port=S1
+category=Proximity
+units=m
+min=0
+max=1
+width=200
+height=600
+frequency=1
+
+
