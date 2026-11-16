@@ -103,4 +103,13 @@ public class Deplacement {
         if (angle <= -180) angle += 360;
         return angle;
     }
+
+    // ---------- Ajout pour le scan continu (Attrapeur) ----------
+
+    /**
+     * Angle déjà parcouru par la rotation en cours, en degrés, lu sur les
+     * encodeurs des roues. À appeler pendant un tourner(angle, true).
+     */
+    public double angleTourne() { return pilote.getMovement().getAngleTurned(); }
+
 }
